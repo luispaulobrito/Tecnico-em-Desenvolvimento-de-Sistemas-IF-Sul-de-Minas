@@ -32,4 +32,4 @@
 - [Oficina de Carros](https://github.com/luispaulobrito/Tecnico-em-Desenvolvimento-de-Sistemas-IF-Sul-de-Minas/tree/main/02%20-%20POO)
 - [Mapeamento MER e Modelo Relacional de Gravadora](https://github.com/luispaulobrito/Tecnico-em-Desenvolvimento-de-Sistemas-IF-Sul-de-Minas/tree/main/03%20-%20Banco%20de%20Dados)
 
-## Conclusão do Bootcamp: 12/2023
+## Previsão de Conclusão do Curso: 12/2023
