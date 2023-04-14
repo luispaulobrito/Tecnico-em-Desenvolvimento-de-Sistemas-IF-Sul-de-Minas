@@ -1,0 +1,259 @@
+/* ATIVIDADE PRATIQUES IF SUL DE MINAS
+   DISCIPLINA: PROGRAMAÇÃO ESTRUTURADA
+   GRUPO:
+    LUIS PAULO LIMA DE BRITO
+    HELDER CARVALHO
+    TAIS CARDOSO SANTOS
+    FERNANDA RENATA PACHECO  DE SOUZA SABINO
+    ANTONYEL LOPES
+*/
+
+#include <stdio.h>
+
+int main(void) {
+
+    int voto;
+    int nulo = 0;
+    int joao = 0;
+    int ana = 0;
+    int jose = 0;
+    int maria = 0;
+    int branco = 0;
+     
+     printf("ELEICAO PARA COORDENADOR DO CURSO-\n\
+            Candidatos- Opcoes de voto:\n\
+            Branco=0\n\
+            Joao=1\n\
+            Ana=2\n\
+            Jose=3\n\
+            Maria=4\n\
+            ");
+    printf("ATENCAO ELEITOR 1 DIGITE O NUMERO CORRESPONDENTE:");
+    scanf("%d",&voto);
+
+    if(voto == 0) { 
+        printf("Voce votou branco\n");
+        branco = branco + 1;
+    } 
+    else if (voto == 1) { 
+        printf("Voce votou em joao\n");
+        joao = joao + 1;
+    }
+    else if (voto == 2) { 
+        printf("Voce votou em ana\n");
+        ana = ana + 1;
+    }
+    else if (voto == 3) { 
+        printf("Voce votou em jose\n");
+        jose = jose + 1;
+    }
+    else if (voto == 4) { 
+        printf("Voce votou em maria\n");
+        maria = maria + 1;
+    }
+    else { 
+        printf("Voce votou em nulo\n");
+        nulo = nulo + 1;
+    }
+    
+
+     printf("ELEICAO PARA COORDENADOR DO CURSO-\n\
+            Candidatos- Opcoes de voto:\n\
+            Branco=0\n\
+            Joao=1\n\
+            Ana=2\n\
+            Jose=3\n\
+            Maria=4\n\
+            ");
+    printf("ATENCAO ELEITOR 2 DIGITE O NUMERO CORRESPONDENTE:");
+    scanf("%d",&voto);
+
+    if(voto == 0) { 
+        printf("Voce votou branco\n");
+        branco = branco + 1;
+    } 
+    else if (voto == 1) { 
+        printf("Voce votou em joao\n");
+        joao = joao + 1;
+    }
+    else if (voto == 2) { 
+        printf("Voce votou em ana\n");
+        ana = ana + 1;
+    }
+    else if (voto == 3) { 
+        printf("Voce votou em jose\n");
+        jose = jose + 1;
+    }
+    else if (voto == 4) { 
+        printf("Voce votou em maria\n");
+        maria = maria + 1;
+    }
+    else { 
+        printf("Voce votou em nulo\n");
+        nulo = nulo + 1;
+    }
+
+         printf("ELEICAO PARA COORDENADOR DO CURSO-\n\
+            Candidatos- Opcoes de voto:\n\
+            Branco=0\n\
+            Joao=1\n\
+            Ana=2\n\
+            Jose=3\n\
+            Maria=4\n\
+            ");
+    printf("ATENCAO ELEITOR 3 DIGITE O NUMERO CORRESPONDENTE:");
+    scanf("%d",&voto);
+
+    if(voto == 0) { 
+        printf("Voce votou branco\n");
+        branco = branco + 1;
+    } 
+    else if (voto == 1) { 
+        printf("Voce votou em joao\n");
+        joao = joao + 1;
+    }
+    else if (voto == 2) { 
+        printf("Voce votou em ana\n");
+        ana = ana + 1;
+    }
+    else if (voto == 3) { 
+        printf("Voce votou em jose\n");
+        jose = jose + 1;
+    }
+    else if (voto == 4) { 
+        printf("Voce votou em maria\n");
+        maria = maria + 1;
+    }
+    else { 
+        printf("Voce votou em nulo\n");
+        nulo = nulo + 1;
+    }
+
+         printf("ELEICAO PARA COORDENADOR DO CURSO-\n\
+            Candidatos- Opcoes de voto:\n\
+            Branco=0\n\
+            Joao=1\n\
+            Ana=2\n\
+            Jose=3\n\
+            Maria=4\n\
+            ");
+    printf("ATENCAO ELEITOR 4 DIGITE O NUMERO CORRESPONDENTE:");
+    scanf("%d",&voto);
+
+    if(voto == 0) { 
+        printf("Voce votou branco\n");
+        branco = branco + 1;
+    } 
+    else if (voto == 1) { 
+        printf("Voce votou em joao\n");
+        joao = joao + 1;
+    }
+    else if (voto == 2) { 
+        printf("Voce votou em ana\n");
+        ana = ana + 1;
+    }
+    else if (voto == 3) { 
+        printf("Voce votou em jose\n");
+        jose = jose + 1;
+    }
+    else if (voto == 4) { 
+        printf("Voce votou em maria\n");
+        maria = maria + 1;
+    }
+    else { 
+        printf("Voce votou em nulo\n");
+        nulo = nulo + 1;
+    }
+
+         printf("ELEICAO PARA COORDENADOR DO CURSO-\n\
+            Candidatos- Opcoes de voto:\n\
+            Branco=0\n\
+            Joao=1\n\
+            Ana=2\n\
+            Jose=3\n\
+            Maria=4\n\
+            ");
+    printf("ATENCAO ELEITOR 5 DIGITE O NUMERO CORRESPONDENTE:");
+    scanf("%d",&voto);
+
+    if(voto == 0) { 
+        printf("Voce votou branco\n");
+        branco = branco + 1;
+    } 
+    else if (voto == 1) { 
+        printf("Voce votou em joao\n");
+        joao = joao + 1;
+    }
+    else if (voto == 2) { 
+        printf("Voce votou em ana\n");
+        ana = ana + 1;
+    }
+    else if (voto == 3) { 
+        printf("Voce votou em jose\n");
+        jose = jose + 1;
+    }
+    else if (voto == 4) { 
+        printf("Voce votou em maria\n");
+        maria = maria + 1;
+    }
+    else { 
+        printf("Voce votou em nulo\n");
+        nulo = nulo + 1;
+    }
+
+
+    printf("\n");
+    printf("---------NUMERO DE VOTOS DE CADA CANDIDATO---------\n");
+    printf ("Votos em branco = %d\n",branco);
+    printf ("Votos nulos = %d\n",nulo);
+    printf ("Votos Joao = %d\n",joao);
+    printf ("Votos Ana = %d\n",ana);
+    printf ("Votos Jose = %d\n",jose);
+    printf ("Votos Maria = %d\n",maria);
+
+
+    printf("\n");
+    printf("---------RESULTADO---------\n");
+    if(joao>ana&&joao>jose&&joao>maria){
+        printf("Joao Eleito\n");
+    }
+    else if(ana>joao&&ana>jose&&ana>maria){
+        printf("Ana Eleita\n");
+    }
+    else if(jose>joao&&jose>ana&&jose>maria){
+        printf("Jose Eleito\n");
+    }
+    else if(maria>joao&&maria>ana&&maria>jose){
+        printf("Maria Eleita\n");
+    }else if(ana==jose && joao==maria && ana==joao && jose==maria){
+        printf ("Todos empataram em votos \n");
+    }else if(jose==maria && jose==ana && maria==ana){
+        printf ("Jose, Maria e Ana empataram em votos \n");
+    }    
+    else if(jose==maria && jose==joao && maria==jose){
+        printf ("Jose, Maria e Joao empataram em votos \n");
+    }    
+    else if(ana==maria && maria==joao && ana==joao){
+        printf ("Ana, Maria e Joao empataram em votos \n");
+    }    
+    else if(ana==jose && ana==joao && jose==joao){
+        printf ("Ana, Jose e Joao empataram em votos \n");
+    }else if(joao==ana ){
+        printf("Joao e Ana empataram em votos\n");
+    }else if( joao==jose ){
+        printf("Joao e Jose empataram em votos\n");
+    }
+    else if(joao==maria){
+        printf("Joao e Maria empataram em votos\n");
+    }
+    else if(ana==jose){
+        printf("Ana e Jose empataram em votos\n");
+    }
+    else if(ana==maria){
+        printf("Ana e Maria empataram em votos\n");
+    }
+    else if(jose==maria){
+        printf ("Jose e Maria empataram em votos \n");
+    }
+    printf("\n");
+}
