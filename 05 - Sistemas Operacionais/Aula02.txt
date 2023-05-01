@@ -1,0 +1,68 @@
+ ____        _           ____  _                                
+|  _ \  __ _| |_ __ _   / ___|| |_ _ __ ___  __ _ _ __ ___  ___ 
+| | | |/ _` | __/ _` |  \___ \| __| '__/ _ \/ _` | '_ ` _ \/ __|
+| |_| | (_| | || (_| |   ___) | |_| | |  __/ (_| | | | | | \__ \
+|____/ \__,_|\__\__,_|  |____/ \__|_|  \___|\__,_|_| |_| |_|___/
+                                                               
+                 _    ____  _       _             
+  __ _ _ __   __| |  |  _ \(_)_ __ (_)_ __   __ _ 
+ / _` | '_ \ / _` |  | |_) | | '_ \| | '_ \ / _` |
+| (_| | | | | (_| |  |  __/| | |_) | | | | | (_| |
+ \__,_|_| |_|\__,_|  |_|   |_| .__/|_|_| |_|\__, |
+                             |_|            |___/ 
+
+By      : Paulo Muniz de Ávila
+Date    : 16/02/2021
+Revision: 1.0
+
+
+Entrada e saída de fluxos
+
+Um shell do Linux, como o Bash, recebe entrada e envia saída como sequências ou fluxos de caracteres. Cada caracter é independente do anterior e do posterior. Os caracteres não são organizados em registros estruturados ou blocos de tamanho fixo.  Os shells do Linux usam três fluxos de I/O padrão, cada um dos quais associado a um descritor de arquivo conhecido:
+
+<stdout> é o fluxo de saída padrão, que exibe a saída de comandos. Possui descritor de arquivo 1.
+<stderr> é o fluxo de erro padrão, que exibe a saída de erro dos comandos. Possui o descritor de arquivo 2.
+<stdin> é o fluxo de entrada padrão, que fornece entrada para comandos. Possui descritor de arquivo 0
+
+Os fluxos de entrada fornecem entrada para programas, geralmente a partir de pressionamentos de teclas do terminal. Os fluxos de saída imprimem caracteres de texto, geralmente para o terminal. O terminal era originalmente uma máquina de escrever ASCII ou terminal de vídeo ou impressora, mas agora é mais frequentemente uma janela de texto em uma área de trabalho gráfica.
+
+Vamos a prática ! Abra um terminal.
+
+>  docker run -it ubuntu
+
+> ls 
+  O resultado de ls é exibido no terminal. Esse é o comportamento padrão. A saída do comando ls é direcinonada para stdout.
+
+> ls > saida.txt
+  Onde está o resultado do comando ls ? A saída do comando foi redirecionada para o arquivo saida.txt
+
+> cat saida.txt
+  veja o resultado 
+  
+> mkdir > err.txt
+  O que ocorreu aqui ?
+  
+> mkdir 2> err.txt 
+  E agora ?
+  
+  stdout e stderr
+  Linux trabalha com 2 data streams de saída.  
+  
+> ls /bin /paulo 1>lista.txt 2>erro.txt
+  Podemos redirecionar as 2 data stream de saída (stdout e stderr) para arquivos. Precisamos usar os descritores 1 (stdout) e 2 (stderr) para informar qual arquivo irá receber o fluxo de informação.
+  
+  #### Pipeling ####
+  
+  stdin -> entrada  | Quando você digita ls no terminal, o terminal reconhece o ls através da data stream stdin.
+
+  É possível redirecionar a saída do comando "ls" para a entrada do comando "cat" ?
+  > ls > cat
+  Isso não funciona ! Mas temos uma maneira de resolver isso ! 
+  > ls | cat
+  > ls | cat -n
+  > ls | cat -n > number.txt
+  * E seu desejar ver os 3 primeiros e 3 últimos arquivos da listagem do ls ?
+  > ls | cat -n | tail -n3 
+  
+    
+  

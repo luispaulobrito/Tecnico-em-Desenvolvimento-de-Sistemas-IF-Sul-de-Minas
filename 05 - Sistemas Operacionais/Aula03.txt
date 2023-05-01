@@ -1,0 +1,42 @@
+ ____                                        
+|  _ \ _ __ ___   ___ ___  ___ ___  ___  ___ 
+| |_) | '__/ _ \ / __/ _ \/ __/ __|/ _ \/ __|
+|  __/| | | (_) | (_|  __/\__ \__ \ (_) \__ \
+|_|   |_|  \___/ \___\___||___/___/\___/|___/
+
+By      : Paulo Muniz de Ávila
+Date    : 16/02/2021
+Revision: 1.0
+
+O que é um processo ?
+
+Uma instância de um programa em execução é chamada de processo. Cada vez que você executa um comando shell, um programa é executado e um processo é criado para ele. Cada processo no Linux possui um ID de processo (PID) e está associado a um usuário específico e conta de grupo.
+
+O Linux é um sistema operacional multitarefa, o que significa que vários programas podem ser executados ao mesmo tempo (processos também são conhecidos como tarefas). Cada processo tem a ilusão de que é o único processo no computador. As tarefas compartilham recursos de processamento comuns (como CPU e memória).
+
+Para ser um bom administrador Linux, você precisa estar familiarizado com uma ampla variedade de comandos que permitem listar, identificar ou excluir um processo. Nas próximas lições, descreveremos esses comandos.
+
+Abra um terminal
+>  docker run -it ubuntu
+
+> ps --help
+> ps --help a
+
+Preparando o ambiente de teste
+Abra outro terminal
+>  docker exec -it ID bash
+>  top
+Abra outro terminal
+> docker exec -it ID bash
+> cat
+> mkdir
+> rm -di teste
+
+
+Kill <process>
+> kill --help
+> kill signed
+
+Instalando o htop
+> apt-get install htop
+

@@ -1,0 +1,85 @@
+Seção 1: Começando com o Linux
+
+ _____                   _             _ 
+|_   _|__ _ __ _ __ ___ (_)_ __   __ _| |
+  | |/ _ \ '__| '_ ` _ \| | '_ \ / _` | |
+  | |  __/ |  | | | | | | | | | | (_| | |
+  |_|\___|_|  |_| |_| |_|_|_| |_|\__,_|_|
+
+
+Em linhas básicas, o terminal do Linux, também conhecido como shell, é um programa que recebe os comandos do usuário a partir do teclado e repassa-os às camadas de baixo nível do sistema operacional. Logo, podemos defini-lo como um mecanismo de software que gerencia a interação do usuário com o Linux.
+
+a) Executando o docker: sudo docker run -it ubuntu
+
+b) Como o shell entende que estamos digitando um comando.
+   Digite o comando cad -> erro
+   Digite o comando cd -> é reconhecido
+   
+   Onde o shell procura os comandos ?
+   > echo $PATH
+   > ls /bin
+   Vamos procurar o comando ls ?
+   
+   > ls /sbin
+   Vamos executar alguns comandos localizados nesse diretório.
+   
+c) Como posso conseguir ajuda para usar os comandos ?
+   usando o man !
+   Para quem está usando o docker temos que seguir os passos a seguir:
+   > which unminimize 
+   > unminimize
+   > apt-get install man-db
+   > man man
+   > man ls
+   
+d) Opções dos comandos
+   > ls --help 
+   > uname --help
+   short version (-a) e long version (--all)
+   > uname -vi 
+   > hostname --help
+   > hostname -I
+   
+e) Argumentos
+   > mkdir
+   > mkdir --help
+   mkdir [OPTION]... DIRECTORY
+   Quando temos[] é opcional, mas DIRECTORY é obrigatório
+   > mkdir teste
+   
+   Argumentos são as informações disponibilizadas pelo usuário
+   
+   > mkdir teste1 teste2
+   
+   > rm
+   > rm --help
+   > rm [OPTION]... [FILE]...
+   > rm -f
+   > rm teste
+   > rm -r teste
+   > ls
+   > rm -r teste1 teste2   
+   > ls
+
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
